@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-Board</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>My Task Board</h1>
+            <p>Organize your workflow, one task at a time.</p>
+        </header>
+
+        <form id="task-form" class="task-input-form">
+            <div class="form-group">
+                <label for="task-input">New Task</label>
+                <input
+                    type="text"
+                    id="task-input"
+                    placeholder="e.g., Design the new homepage"
+                    autocomplete="off"
+                    required
+                >
+            </div>
+            <div class="form-group">
+                <label for="task-due-date">Due Date & Time</label>
+                <input
+                    type="datetime-local"
+                    id="task-due-date"
+                    required
+                >
+            </div>
+            <button type="submit" title="Add Task">
+                <i class="fas fa-plus"></i> Add Task
+            </button>
+        </form>
+
+        <main class="task-board">
+            <div class="task-column" id="not-started-col">
+                <h2 class="column-header">
+                    <i class="fas fa-list-ul"></i> Not Started
+                </h2>
+                <ul id="not-started-list" class="task-list"></ul>
+            </div>
+            <div class="task-column" id="in-progress-col">
+                <h2 class="column-header">
+                    <i class="fas fa-spinner fa-spin"></i> In Progress
+                </h2>
+                <ul id="in-progress-list" class="task-list"></ul>
+            </div>
+            <div class="task-column" id="completed-col">
+                <h2 class="column-header">
+                    <i class="fas fa-check-circle"></i> Completed
+                </h2>
+                <ul id="completed-list" class="task-list"></ul>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
