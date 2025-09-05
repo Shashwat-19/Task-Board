@@ -67,13 +67,13 @@ Delete tasks when they are no longer needed.
 ```
 Task-Board/
 ├── static/                            # Static files (CSS, JS, assets)
-│ ├── css/
-│ │ └── style.css                      # Main stylesheet
-│ └── js/
-│ └── script.js                        # Frontend logic
+│     ├── css/
+│     │    └── style.css               # Main stylesheet
+│     └── js/
+│          └── script.js               # Frontend logic
 │
 ├── templates/
-│ └── index.html                       # Main HTML template
+│     └── index.html                   # Main HTML template
 │
 ├── venv/                              # Virtual environment (not pushed to repo)
 ├── .gitignore                         # Git ignore file
