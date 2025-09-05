@@ -87,20 +87,30 @@ You can test the project by:
 ## Documentation
 - Flask official docs: https://flask.palletsprojects.com
 - Python virtual environments: https://docs.python.org/3/library/venv.html
-## Contribution Guidelines
-Fork the repo.
-Create a feature branch (feature-new-task-ui).
-Commit changes (git commit -m 'Added new task UI').
-Push and create a PR.
-🚀 Deployment
-You can deploy Task-Board on:
-Heroku
-Render
-Vercel (with Flask adapter)
-Docker (Optional)
-📜 License
-This project is licensed under the MIT License – free to use and modify.
-📬 Contact
-👤 Shashwat
-GitHub: Shashwat-19
-LinkedIn: [Your LinkedIn Link]
+- Comprehensive documentation for this project is available on [Hashnode](https://hashnode.com/@Shashwat56).
+
+> At present, this README serves as the primary source of documentation.## 📜 License
+
+This project is distributed under the MIT License.  
+For detailed licensing information, please refer to the [LICENSE](./LICENSE) file included in this repository.
+
+
+##  Contact  
+### Shashwat  
+**Python & Java Developer | Cloud & NoSQL Enthusiast**  
+
+- **Python & Java Development** – Automation, Backend Systems, APIs, and OOP  
+- **Cloud & NoSQL** – Docker, AWS, MongoDB, Firebase Firestore  
+- **UI/UX Design** – Creating user-focused, scalable, and visually engaging applications  
+
+---
+
+##  Open Source | Tech Innovation  
+Passionate about creating robust applications and leveraging cloud technologies for high-performance solutions.
+
+
+###  Find me here:  
+[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/Shashwat-19)  [<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/shashwatk1956/)  [<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:shashwat1956@gmail.com)  [<img src="https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" />](https://hashnode.com/@Shashwat56)
+[<img src="https://img.shields.io/badge/HackerRank-15%2B-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white" />](https://www.hackerrank.com/profile/shashwat1956)
+
+Feel free to connect for tech collaborations, open-source contributions, or brainstorming innovative solutions!
