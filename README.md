@@ -1,10 +1,6 @@
 # 📌 Task-Board  
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Shashwat-19/Task-Board?color=blue)  
-![GitHub stars](https://img.shields.io/github/stars/Shashwat-19/Task-Board?style=social)  
-![GitHub forks](https://img.shields.io/github/forks/Shashwat-19/Task-Board?style=social)  
-![License](https://img.shields.io/github/license/Shashwat-19/Task-Board?color=green)  
-![Made with Flask](https://img.shields.io/badge/Made%20with-Flask-blue)  
+![GitHub repo size](https://img.shields.io/github/repo-size/Shashwat-19/Task-Board?color=blue) ![GitHub stars](https://img.shields.io/github/stars/Shashwat-19/Task-Board?style=social) ![GitHub forks](https://img.shields.io/github/forks/Shashwat-19/Task-Board?style=social) ![License](https://img.shields.io/github/license/Shashwat-19/Task-Board?color=green) ![Made with Flask](https://img.shields.io/badge/Made%20with-Flask-blue)  
 
 Organize your workflow, one task at a time.  
 Task-Board is a simple yet powerful **task management web app** built with **Flask and AI-powered assistance**. It helps you add, update, and track tasks visually with categories like **Not Started, In Progress, and Completed**.  
