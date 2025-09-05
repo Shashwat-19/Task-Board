@@ -66,11 +66,20 @@ Delete tasks when they are no longer needed.
 ## Project Architecture
 ```
 Task-Board/
-├── app.py              # Main Flask application
-├── requirements.txt    # Dependencies
-├── static/             # CSS, JS, and assets
-├── templates/          # HTML templates
-└── README.md           # Project documentation
+├── static/                            # Static files (CSS, JS, assets)
+│ ├── css/
+│ │ └── style.css                      # Main stylesheet
+│ └── js/
+│ └── script.js                        # Frontend logic
+│
+├── templates/
+│ └── index.html                       # Main HTML template
+│
+├── venv/                              # Virtual environment (not pushed to repo)
+├── .gitignore                         # Git ignore file
+├── app.py                             # Main Flask application
+├── LICENSE                            # License file
+└── README.md                          # Project documentation
 ```
 ---
 ## Testing
