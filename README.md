@@ -89,7 +89,9 @@ You can test the project by:
 - Python virtual environments: https://docs.python.org/3/library/venv.html
 - Comprehensive documentation for this project is available on [Hashnode](https://hashnode.com/@Shashwat56).
 
-> At present, this README serves as the primary source of documentation.## 📜 License
+> At present, this README serves as the primary source of documentation.
+
+##  License
 
 This project is distributed under the MIT License.  
 For detailed licensing information, please refer to the [LICENSE](./LICENSE) file included in this repository.
